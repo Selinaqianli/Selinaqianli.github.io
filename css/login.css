@@ -224,7 +224,6 @@
     -o-animation-name: swing;
     animation-name: swing;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes wobble {
     0% { -webkit-transform: translateX(0%); }
@@ -283,7 +282,6 @@
     -o-animation-name: wobble;
     animation-name: wobble;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes pulse {
     0% { -webkit-transform: scale(1); }
@@ -3796,13 +3794,6 @@
     -o-animation-name: rollOut;
     animation-name: rollOut;
 }
-
-
-
-
-
-
-/* extended by Codrops */
 
 @-webkit-keyframes scaleOut {
     0% {
