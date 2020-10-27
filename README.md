@@ -1,6 +1,6 @@
 # Selinaqianli.github.io
-- 404 page: https://selinaqianli.github.io/404.html
-- home page: https://selinaqianli.github.io/index.html
-- project page: https://selinaqianli.github.io/project.html
-    * Login: https://selinaqianli.github.io/login.html
-- contact page: https://selinaqianli.github.io/contact.html
+- home page: http://selina-qian-li.com/index.html
+- project page: http://selina-qian-li.com/project.html
+    * Login: http://selina-qian-li.com/login.html
+- contact page: http://selina-qian-li.com/contact.html
+- 404 page: http://selina-qian-li.com/404.html
