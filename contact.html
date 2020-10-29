@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Contacts</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 
@@ -35,39 +36,41 @@
 </nav>
 
 <section class="wrapper">
-    <div class="container">
+    <div class="info contact_section">
         <div class="row">
-            <div class="section-title col-sm-8 col-sm-offset-2">
-                <h2 class="text-uppercase branding-color">contact us
-                    <span>
-								<i class="fa fa-circle"></i>
-								<i class="fa fa-circle"></i>
-								<i class="fa fa-circle"></i>
-							</span>
-                </h2>
-            </div>
-            <div class="clearfix"></div>
+            <h2>Contact Me</h2>
+        </div>
 
-            <div class="contact-form">
-                <form action="">
+        <div class="layout_padding2-top">
+            <form action="">
+                <div>
                     <label>
-                        <input type="text" class="name" placeholder="Name"/>
+                        <input type="text" placeholder="Full Name" />
                     </label>
+                </div>
+                <div>
                     <label>
-                        <input type="email" class="email" placeholder="Email"/>
+                        <input type="email" placeholder="Email" />
                     </label>
+                </div>
+                <div>
                     <label>
-                        <input type="text" class="subject" placeholder="Subject"/>
+                        <input type="text" placeholder="Phone Number" />
                     </label>
+                </div>
+                <div>
                     <label>
-                        <textarea class="message" placeholder="Message"></textarea>
+                        <input type="text" class="message_input" placeholder="Message" />
                     </label>
-                    <button class="btn branding-bg-color white-color text-uppercase">send message</button>
-                </form>
-            </div>
+                </div>
+                <div>
+                    <button type="submit">
+                        Send
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 </section>
-
 </body>
 </html>

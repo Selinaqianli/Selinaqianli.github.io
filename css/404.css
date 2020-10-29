@@ -241,3 +241,6 @@
     animation-name: pieceLeft;
     animation-delay: 4.5s;
 }
+nav .menu {
+    background: none;
+}
