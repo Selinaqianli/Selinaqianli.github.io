@@ -10,4 +10,5 @@
 
 .contact_section input.message_input {
     height: 100px;
+    overflow: scroll;
 }

@@ -2,7 +2,7 @@
 .wrapper .container .two,
 .wrapper .container .three,
 .wrapper .container .circle,
-.wrapper .container .p404 {
+.wrapper .container .head {
     width: 60%;
     height: 60%;
     top: 20% !important;
@@ -14,7 +14,7 @@
 .wrapper .container .two .content,
 .wrapper .container .three .content,
 .wrapper .container .circle .content,
-.wrapper .container .p404 .content {
+.wrapper .container .head .content {
     width: 600px;
     height: 600px;
     display: flex;
@@ -35,7 +35,7 @@
 .wrapper .container .two .content .piece,
 .wrapper .container .three .content .piece,
 .wrapper .container .circle .content .piece,
-.wrapper .container .p404 .content .piece {
+.wrapper .container .head .content .piece {
     width: 200px;
     height: 80px;
     display: flex;
@@ -61,7 +61,7 @@
     .wrapper .container .two,
     .wrapper .container .three,
     .wrapper .container .circle,
-    .wrapper .container .p404 {
+    .wrapper .container .head {
         width: 90%;
         height: 90%;
         top: 5% !important;
@@ -75,7 +75,7 @@
     .wrapper .container .two,
     .wrapper .container .three,
     .wrapper .container .circle,
-    .wrapper .container .p404 {
+    .wrapper .container .head {
         min-width: 280px;
         min-height: 280px;
         width: 60%;
@@ -85,8 +85,8 @@
     }
 }
 
-.wrapper .container .p404 {
-    font-size: 200px;
+.wrapper .container .head {
+    font-size: 100px;
     font-weight: 700;
     letter-spacing: 4px;
     color: white;
@@ -99,7 +99,7 @@
     animation-delay: 1.2s;
 }
 @media screen and (max-width: 799px) {
-    .wrapper .container .p404 {
+    .wrapper .container .head {
         font-size: 100px;
     }
 }
@@ -109,13 +109,14 @@
         transform: scale(10) skew(20deg, 20deg);
     }
 }
-.wrapper .container .p404:nth-of-type(2) {
-    color: #FFC30B;
+.wrapper .container .head:nth-of-type(2) {
+    color: #FABD02;
     z-index: 1;
     animation-delay: 1s;
     filter: blur(10px);
     opacity: 0.8;
 }
+
 .wrapper .container .circle {
     position: absolute;
 }
@@ -241,6 +242,7 @@
     animation-name: pieceLeft;
     animation-delay: 4.5s;
 }
+
 nav .menu {
     background: none;
 }

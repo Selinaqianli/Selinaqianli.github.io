@@ -363,11 +363,11 @@ nav .menu .menu_icon:hover .icon:after {
     }
 }
 .wrapper .container .text article p {
-    color: white;
+    color: darkorange;
     font-size: 18px;
     letter-spacing: 1px;
     margin-bottom: 40px;
-    text-shadow: 6px 6px 10px #FDC12A;
+    text-shadow: 6px 6px 10px #FDCE2A;
 }
 .wrapper .container .text article button {
     height: 40px;
@@ -393,6 +393,7 @@ nav .menu .menu_icon:hover .icon:after {
 .wrapper .info {
     padding: 5% 15%;
     background: #FCF4A3;
+    border-radius: 30px;
     width: 50%;
     margin: 80px auto 0;
 }
