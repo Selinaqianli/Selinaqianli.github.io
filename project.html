@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Projects</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/project.css">
 <body>
 
 <div class="about">
@@ -22,11 +22,11 @@
 
 <nav>
     <div class="menu">
-        <p class="website_name" onclick="document.location='contact.html'">Selina</p>
+        <p class="website_name" onclick="document.location='index.html'">Selina</p>
         <div class="menu_links">
             <a href="index.html" class="link">about</a>
             <a href="project.html" class="link">projects</a>
-            <a href="contact.html" class="link">contacts</a>
+            <a href="resume.html" class="link">resume</a>
         </div>
         <div class="menu_icon">
             <span class="icon"></span>
@@ -36,8 +36,38 @@
 
 <section class="wrapper">
     <div class="info">
-        <button onclick="document.location='login.html'">Login</button>
+        <div class="tab">
+            <button class="tablinks" onclick="openProject(event, 'LogIn')" id="defaultOpen">Log In</button>
+            <button class="tablinks" onclick="openProject(event, 'DataManagement')">Data Management</button>
+        </div>
+
+        <div id="LogIn" class="tabcontent">
+            <p>Coming soon!</p>
+        </div>
+
+        <div id="DataManagement" class="tabcontent">
+            <p>Coming soon!</p>
+        </div>
     </div>
 </section>
+
+<script>
+    function openProject(evt, projectName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(projectName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
 </body>
 </html>

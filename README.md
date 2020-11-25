@@ -1,9 +1,9 @@
 # Selinaqianli.github.io
 - home page: https://selinaqianli.github.io
 - project page: https://selinaqianli.github.io/project.html
-    * Login: https://selinaqianli.github.io/login.html
-- contact page: https://selinaqianli.github.io/contact.html
+- resume page: https://selinaqianli.github.io/resume.html
 
-Next tasks:
-- enable the api for contact me
-- improve the project page
+Next Task:
+1. upload updated resume
+2. complete project - Log In
+3. complete project - Data Management
