@@ -4,6 +4,4 @@
 - resume page: https://selinaqianli.github.io/resume.html
 
 Next Task:
-1. upload updated resume
-2. complete project - Log In
-3. complete project - Data Management
+1. complete project - Log In
