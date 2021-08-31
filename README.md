@@ -1,7 +1,5 @@
 # Selinaqianli.github.io
-- home page: https://selinaqianli.github.io
-- project page: https://selinaqianli.github.io/project.html
-- resume page: https://selinaqianli.github.io/resume.html
+- URL: https://selinaqianli.github.io
 
 Next Task:
 1. complete project - Log In

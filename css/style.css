@@ -438,3 +438,6 @@ nav .menu .menu_icon:hover .icon:after {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Style the tab content (and add height:100% for full page content) */
+.pagecontent { }
