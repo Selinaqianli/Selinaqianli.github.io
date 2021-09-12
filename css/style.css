@@ -139,7 +139,7 @@ body {
     border: 0;
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
-    color: #5b3e3ed1;
+    color: black;
 }
 h1:focus,
 h2:focus,
@@ -148,8 +148,6 @@ h4:focus,
 h5:focus,
 h6:focus,
 p:focus,
-ul:focus,
-li:focus,
 button:focus,
 a:focus,
 i:focus,
@@ -220,6 +218,7 @@ nav .menu .menu_links {
 }
 nav .menu .menu_links:hover {
     opacity: 1;
+    cursor: pointer;
 }
 @media screen and (max-width: 799px) {
     nav .menu .menu_links {
@@ -369,7 +368,7 @@ nav .menu .menu_icon:hover .icon:after {
     margin-bottom: 40px;
     text-shadow: 6px 6px 10px #FDCE2A;
 }
-.wrapper .container .text article button {
+/*.wrapper .container .text article button {
     height: 40px;
     padding: 0 30px;
     border-radius: 50px;
@@ -388,15 +387,39 @@ nav .menu .menu_icon:hover .icon:after {
     transform: translateY(5px);
     background: #FB8A8A;
     color: white;
-}
+}*/
 
 .wrapper .info {
     padding: 3% 3%;
-    background: #ffedc0;
+    background: white;
+    color: black;
     border-radius: 30px;
     width: 80%;
     height: 80%;
     margin: 6% auto 0;
+
+    overflow: auto;
+}
+
+.wrapper .info ul {}
+
+.wrapper .info button {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 3;
+    color: #000000;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .info button:hover {
+    background: darkblue;
+    color: white;
 }
 
 .row {
